@@ -1,0 +1,113 @@
+
+const testimonials = [
+  {
+    quote: "Friendly staff and amazing care - my dog always comes home happy!",
+    author: "Sarah M.",
+    rating: 5,
+  },
+  {
+    quote: "Best grooming service! My dog loves coming here.",
+    author: "Chong ML.",
+    rating: 5,
+  },
+];
+
+{/* Testimonials */}
+        <div className="max-w-3xl mx-auto">
+          <h3 className="text-center text-lg font-semibold text-foreground mb-6 flex items-center justify-center gap-2">
+            <Star className="h-5 w-5 text-primary fill-primary" />
+            What Our Customers Say
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+            {testimonials.map((testimonial, index) => (
+              <Card
+                key={index}
+                className="group bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-border/50 hover:border-primary/20"
+              >
+                <CardContent className="p-6">
+                  {/* Stars */}
+                  <div className="flex items-center gap-1 mb-3">
+                    {Array.from({ length: testimonial.rating }).map((_, i) => (
+                      <Star
+                        key={i}
+                        className="h-4 w-4 fill-primary text-primary"
+                      />
+                    ))}
+                  </div>
+                  {/* Quote */}
+                  <p className="text-foreground italic mb-4 leading-relaxed">
+                    &quot;{testimonial.quote}&quot;
+                  </p>
+                  {/* Author */}
+                  <p className="text-sm text-muted-foreground font-medium">
+                    — {testimonial.author}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Trust Bar */}
+        <div className="mt-12 lg:mt-16 bg-card rounded-2xl p-6 lg:p-8 shadow-sm border border-border/50">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 text-center md:text-left">
+            <div className="flex items-center gap-3">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                <ShieldCheck className="h-6 w-6" />
+              </div>
+              <div>
+                <p className="font-semibold text-foreground">100% Safe</p>
+                <p className="text-xs text-muted-foreground">Vet-approved practices</p>
+              </div>
+            </div>
+
+            <div className="hidden md:block h-10 w-px bg-border" />
+
+            <div className="flex items-center gap-3">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-accent/30 text-accent-foreground">
+                <Award className="h-6 w-6" />
+              </div>
+              <div>
+                <p className="font-semibold text-foreground">Award Winning</p>
+                <p className="text-xs text-muted-foreground">Best in the city</p>
+              </div>
+            </div>
+
+            <div className="hidden md:block h-10 w-px bg-border" />
+
+            <div className="flex items-center gap-3">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-secondary text-secondary-foreground">
+                <Heart className="h-6 w-6" />
+              </div>
+              <div>
+                <p className="font-semibold text-foreground">Pet-First Care</p>
+                <p className="text-xs text-muted-foreground">Your pet&apos;s comfort matters</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+Package 1: Basic Care Package
+Bath + Shampoo
+Blow Dry
+Nail Trim
+Ear Cleaning
+RM79
+
+Package 2: Complete Care Package
+Every Service in Package 1 +
+Grooming 
+Full Body Check
+Dental Care
+
+RM189
+
+Package 3: Overnight with Complete Care Package
+Every Service in Package 2 +
+Overnight Stay
+24H Care
+Gift Food Can and Pet Snacks
+
+RM 259
