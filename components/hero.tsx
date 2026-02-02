@@ -62,7 +62,7 @@ export default function Hero(){
                         {/* Main image container */}
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-primary/10 border-4 border-white/50 dark:border-white/10 transition-transform duration-500 hover:scale-[1.02]">
                             <Image
-                                src="/vecteezy_close-up-portrait-of-tricolor-australian-shepherd-dog-lying_3018949.jpeg"
+                                src="/portfolio/pet-shop-web-template/vecteezy_close-up-portrait-of-tricolor-australian-shepherd-dog-lying_3018949.jpeg"
                                 alt="Beautiful Australian Shepherd dog at PetCare grooming salon"
                                 width={700}
                                 height={560}

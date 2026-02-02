@@ -7,7 +7,7 @@ const testimonials = [
     id: 1,
     name: "Buddy",
     type: "Golden Retriever",
-    image: "/pets/dog1.jpg",
+    image: "/portfolio/pet-shop-web-template/pets/dog1.jpg",
     rating: 5,
     comment:
       "Woof! The treats here are absolutely pawsome! My tail hasn't stopped wagging since my parent discovered this place. 10/10 would recommend to all my furry friends!",
@@ -16,7 +16,7 @@ const testimonials = [
     id: 2,
     name: "Whiskers",
     type: "Persian Cat",
-    image: "/pets/cat1.jpg",
+    image: "/portfolio/pet-shop-web-template/pets/cat1.jpg",
     rating: 5,
     comment:
       "Finally, a shop that understands my refined taste. The premium catnip selection is *chef's kiss*. My parent now knows exactly where to shop.",
@@ -25,7 +25,7 @@ const testimonials = [
     id: 3,
     name: "Max",
     type: "German Shepherd",
-    image: "/pets/dog2.jpg",
+    image: "/portfolio/pet-shop-web-template/pets/dog2.jpg",
     rating: 4,
     comment:
       "Great toys that actually last! I've destroyed many toys in my time, but these ones are tough. The squeaky ball is my favorite. Would give 5 stars if they had more bacon treats!",
@@ -34,7 +34,7 @@ const testimonials = [
     id: 4,
     name: "Luna",
     type: "Siamese Cat",
-    image: "/pets/cat2.jpg",
+    image: "/portfolio/pet-shop-web-template/pets/cat2.jpg",
     rating: 5,
     comment:
       "Meow! The cozy beds here are purrfect for my 16-hour nap schedule. Fast delivery too - my parent was impressed, and I got to claim the box immediately.",
@@ -43,7 +43,7 @@ const testimonials = [
     id: 5,
     name: "Charlie",
     type: "Beagle",
-    image: "/pets/dog3.jpg",
+    image: "/portfolio/pet-shop-web-template/pets/dog3.jpg",
     rating: 5,
     comment:
       "FOOD! TOYS! TREATS! Everything a good boy could ever want! The staff even gave me extra belly rubs during pickup. Best day ever!",
@@ -52,7 +52,7 @@ const testimonials = [
     id: 6,
     name: "Mittens",
     type: "Maine Coon",
-    image: "/pets/cat3.jpg",
+    image: "/portfolio/pet-shop-web-template/pets/cat3.jpg",
     rating: 4,
     comment:
       "The scratching post is magnificent and worthy of my majestic claws. My only complaint is that my parent keeps interrupting my 3 AM zoomies to admire it.",

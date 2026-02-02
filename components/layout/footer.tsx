@@ -2,7 +2,7 @@ import { Dog, Mail, MapPin, Phone, Facebook, Instagram, Twitter } from "lucide-r
 import Link from "next/link";
 
 const navLinks = [
-    { href: "/", label: "Home" },
+    { href: "#", label: "Home" },
     { href: "#service", label: "Services" },
     { href: "#package", label: "Packages" },
     { href: "#testimonial", label: "Testimonials" },

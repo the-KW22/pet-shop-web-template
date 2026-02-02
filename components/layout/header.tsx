@@ -3,7 +3,7 @@ import { Dog, Phone } from "lucide-react";
 import Link from "next/link";
 
 const navLinks = [
-  { href: "/", label: "Home" },
+  { href: "#", label: "Home" },
   { href: "#service", label: "Services" },
   { href: "#package", label: "Packages" },
   { href: "#testimonial", label: "Testimonials" },
@@ -14,7 +14,7 @@ export function Header(){
         <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60">
             <div className="container flex mx-auto h-16 items-center justify-between px-4 lg:px-8">
                 {/* Logo Brand */}
-                <Link href="/" className="group flex items-center gap-2 font-bold text-xl transition-colors hover:text-primary">
+                <Link href="#" className="group flex items-center gap-2 font-bold text-xl transition-colors hover:text-primary">
                     <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow:md transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:rotate-3">
                         <Dog className="h-5 w-5"/>
                     </div>
